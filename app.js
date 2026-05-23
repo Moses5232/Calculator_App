@@ -43,3 +43,9 @@ function divide() {
     document.getElementById("result").innerHTML =
         "Result: " + answer;
 }
+
+function resetCalculator() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").innerHTML = "Result:";
+}
